@@ -1,0 +1,32 @@
+.sub-header-about{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,.7), rgba(4,9,30,.7)), url("../images/about.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+
+    &__col{
+        flex-basis: 48%;
+        padding: 3rem .2rem;
+    }
+
+    &__photo{
+        max-width: 100%;
+    }
+
+    h1{
+        padding-top: 0;
+        text-transform: capitalize;
+    }
+    p{
+        padding: 1.5rem 0 2.5rem;
+    }
+}

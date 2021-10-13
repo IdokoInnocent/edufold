@@ -1,0 +1,60 @@
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 8rem 0;
+
+
+    iframe{
+        width: 100%;
+    }
+
+
+}
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+
+    .contact-col{
+        flex-basis: 48%;
+        margin-bottom: 5rem;
+
+        h5{
+            font-size: 2rem;
+            color: #555;
+            font-weight: 400;
+            margin-bottom: .5rem;
+        }
+
+        p{
+            font-size: 1.4rem;
+            color: #555;
+            font-weight: 100;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 1.5rem;
+            margin-bottom: 1.7rem;
+            border: none;
+            outline: none;
+            border: $color-border;
+            box-sizing: border-box;
+
+
+        }
+
+        div{
+            display: flex;
+            align-items: center;
+            margin-bottom: 4rem;
+
+            .fa{
+                font-size: 2.8rem;
+                color: $color-red;
+                margin: 1rem;
+                margin-right: 3rem;
+            }
+        }
+    }
+}

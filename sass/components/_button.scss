@@ -1,0 +1,37 @@
+.hero-btn{
+    display: inline-block;
+    color: $text-color;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border: 1px solid $text-color;
+
+    padding: 2rem 3.4rem;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+    &:hover{
+        @include style-button;
+    }
+
+    &--u{
+        margin-top: 4rem;
+        padding: 1rem 3rem;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+    }
+
+    &--red{
+        text-transform: capitalize;
+        border: 1px solid $color-red;
+        background: transparent;
+        color: $color-red;
+        padding: 1rem 2.5rem;
+        font-size: 1.5rem;
+
+        &:hover{
+            color: $text-color;
+        }
+    }
+}
